@@ -5,7 +5,7 @@ pipeline {
         maven 'Maven3'
     }
 
-    stages {
+    stages{
 
         stage('CHECKOUT') {
             steps {
