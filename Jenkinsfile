@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'
+        maven 'Mavn3'
     }
 
-    stages{
+    stages {
 
         stage('CHECKOUT') {
             steps {
